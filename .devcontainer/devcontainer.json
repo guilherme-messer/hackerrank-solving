@@ -1,10 +1,12 @@
 {
-	"name": "Java",
-	"image": "mcr.microsoft.com/devcontainers/java:1-21-bullseye",
+	"name": "Python",
+	"image": "mcr.microsoft.com/devcontainers/python",
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"vscjava.vscode-java-pack"
+				"ms-python.python",
+				"KevinRose.vsc-python-indent",
+				"donjayamanne.python-extension-pack"
 			]
 		}
 	}
